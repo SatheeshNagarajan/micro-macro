@@ -19,16 +19,16 @@ By considering a run time analysis in a problem, algorithm makes the executions 
 Approximate completion time for algorithms, N = 100
 
 
-O(Log(N)) 	10^-7 seconds
+O(Log(N)) 	=> 10^-7 seconds
 
-O(N) 	    10^-6 seconds
+O(N) 	    => 10^-6 seconds
 
-O(N*Log(N)) 10^-5 seconds
+O(N*Log(N)) => 10^-5 seconds
 
-O(N^2) 	    10^-4 seconds
+O(N^2) 	    => 10^-4 seconds
 
-O(N^6) 	    3 minutes
+O(N^6) 	    => 3 minutes
 
-O(2^N) 	    10^14 years.
+O(2^N) 	    =>
 
-O(N!) 	    10^142 years.
+O(N!) 	    =>
