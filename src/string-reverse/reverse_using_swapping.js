@@ -1,7 +1,7 @@
 
 
 var value = "Here is my own logic";
-//var value = ['a', 'b', 'c', 'd', 'e'];
+var value = ['a', 'b', 'c', 'd', 'e'];
 
 var increment = 0;
 
@@ -15,7 +15,7 @@ while(decrement >= 0) {
   value[increment] = temp;
   increment++;
   decrement--;
-  if (increment == decrement){
+  if (increment >= decrement){
     break;
   }
 }
