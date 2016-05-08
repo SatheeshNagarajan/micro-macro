@@ -1,10 +1,10 @@
 
 var value = "Nice to meet you";
 
-var temp = "";
+var reverse = "";
 
 for(var index = value.length-1; index>=0; index--) {
-  temp+=value[index];
+  reverse+=value[index];
 }
 
-console.log(temp);
+console.log(reverse);
