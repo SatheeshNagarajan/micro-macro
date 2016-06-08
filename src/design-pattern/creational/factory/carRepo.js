@@ -6,12 +6,12 @@ var repo = function() {
     get: function(id) {
       console.log("Retriving car " + id);
       return {
-        name: "new Car from repo"
+        brand: "new Car"
       }
     },
 
     select: function(car) {
-      console.log("Selected car " + car.brand + " from repo");
+      console.log("Selected car : " + car.brand + " Car repo");
     }
   }
 }

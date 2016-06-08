@@ -2,7 +2,10 @@
 var Car = function (data) {
 
   this.brand = data.brand;
-  this.available = false;
+  this.version = data.version;
+  this.type = data.type;
+  this.owner = data.owner;
+  this.available = data.available;
 
 };
 
@@ -12,7 +15,7 @@ Car.prototype.model = function () {
 };
 
 Car.prototype.select = function () {
-  console.log("Selected Vehicle : " + this.brand);
+  console.log("Selected car : " + this.brand);
 };
 
 module.exports = Car;

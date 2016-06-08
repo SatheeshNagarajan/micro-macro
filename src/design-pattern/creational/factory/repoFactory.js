@@ -14,16 +14,16 @@ var repoFactory = function() {
       }
     }
 
-    if (repoType === "Internal") {
-      var internalRepo = require("./internalRepo");
+    if (repoType === "Bike") {
+      var internalRepo = require("./busRepo");
       return internalRepo;
     }
 
-    if (repoType === "Extenal") {
-      var externalRepo = require("./externalRepo");
+    if (repoType === "Bus") {
+      var externalRepo = require("./bikeRepo");
       return externalRepo;
     }
   }
 };
 
-module.export = repoFactory();
+module.exports = repoFactory;
