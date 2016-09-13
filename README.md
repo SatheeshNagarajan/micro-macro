@@ -29,6 +29,6 @@ O(N^2) 	    => 10^-4 seconds
 
 O(N^6) 	    => 3 minutes
 
-O(2^N) 	    =>
+O(2^N) 	    => 1014 years
 
-O(N!) 	    =>
+O(N!) 	    => 10142 years

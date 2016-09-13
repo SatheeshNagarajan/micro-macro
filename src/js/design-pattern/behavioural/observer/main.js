@@ -63,14 +63,15 @@ observableCar.prototype.select = function() {
   Car.prototype.select.call(this);
 };
 
-var carObj1 = new observableCar({brand: "Maruthi", owner: "John" });
+const obj = {brand: "Maruthi", owner: "John" };
+var carObj1 = new observableCar(obj);
 
 var notification = new notificationService();
 var logging = new loggingService();
 var booking = new bookingService();
 
-carObj1.addObserver(notification.update);
-carObj1.addObserver(logging.update);
-carObj1.addObserver(booking.update);
+carObj1.addObserver(notification.update(obj));
+carObj1.addObserver(logging.update(obj));
+carObj1.addObserver(booking.update(obj));
 
 carObj1.select();

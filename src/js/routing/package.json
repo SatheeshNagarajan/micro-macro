@@ -1,0 +1,26 @@
+{
+  "name": "routes-through-ui",
+  "version": "1.0.0",
+  "description": "bind/route created logic into a web using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatheeshNagarajan/micro-macro.git"
+  },
+  "keywords": [
+    "routing"
+  ],
+  "author": "Satheesh Nagarajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SatheeshNagarajan/micro-macro/issues"
+  },
+  "homepage": "https://github.com/SatheeshNagarajan/micro-macro#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "util": "^0.10.3"
+  }
+}
