@@ -9,7 +9,7 @@ app.get('/', function(req, res) {
 
   var looping = function looping() {
 
-    for (var index = 0; i<100; index++){
+    for (var index = 0; index<100; index++){
       console.log(index);
     }
 
