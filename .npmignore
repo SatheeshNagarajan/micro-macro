@@ -3,10 +3,6 @@
 # See https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
 
 ## files watched by Git but not needed in a module's package
-Docker*
-docker*
-Vagrant*
-vagrant*
 
 # local .npm cache
 .npm
