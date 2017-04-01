@@ -4,8 +4,11 @@
   "description": "validate before pre commit and pre push",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "node ./app.js && exit 1"
   },
+  "pre-commit": [
+    "test"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SatheeshNagarajan/micro-macro.git"
@@ -20,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/SatheeshNagarajan/micro-macro/issues"
   },
-  "homepage": "https://github.com/SatheeshNagarajan/micro-macro#readme"
+  "homepage": "https://github.com/SatheeshNagarajan/micro-macro#readme",
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  }
 }
