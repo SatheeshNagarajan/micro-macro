@@ -1,0 +1,24 @@
+{
+  "name": "pre-commit-push",
+  "version": "1.0.0",
+  "description": "validate before pre commit and pre push",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SatheeshNagarajan/micro-macro.git"
+  },
+  "keywords": [
+    "pre",
+    "commit",
+    "push"
+  ],
+  "author": "Satheesh Nagarajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SatheeshNagarajan/micro-macro/issues"
+  },
+  "homepage": "https://github.com/SatheeshNagarajan/micro-macro#readme"
+}
